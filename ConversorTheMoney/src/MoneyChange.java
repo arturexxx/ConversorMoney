@@ -1,10 +1,9 @@
 import java.util.Map;
 
 public class MoneyChange {
-    private String base_code;  // Moneda base (por ejemplo, PEN)
-    private Map<String, Double> conversion_rates;  // Mapa con las tasas de cambio
+    private String base_code;
+    private Map<String, Double> conversion_rates;
 
-    // Getters y Setters
     public String getBase_code() {
         return base_code;
     }
